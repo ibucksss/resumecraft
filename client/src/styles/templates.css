@@ -1,0 +1,95 @@
+.t-container {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0px 100px;
+
+  margin-bottom: 50px;
+}
+
+.divider {
+  width: 100%;
+  height: 5px;
+  background-color: #333;
+  z-index: 10;
+}
+.t-container .t-header {
+  display: flex;
+  justify-content: space-between;
+}
+.t-container .t-title {
+  font-size: 25px;
+}
+.t-container .t-subtitle {
+  font-size: 20px;
+}
+.t-container .t-med-header {
+  font-size: 15px;
+}
+.t-container .t-small-header {
+  font-size: 14px;
+}
+.t-text {
+  font-size: 12px;
+}
+.t-name {
+  font-size: 50px;
+}
+.template1-container .t-subtitle {
+  color: grey;
+}
+.education-container,
+.experience-container,
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Template 2 */
+.template2-container {
+}
+.main-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-content .t-subtitle {
+  color: grey;
+}
+.main-left {
+  width: 20%;
+  height: 100%;
+  padding-right: 20px;
+}
+.main-left .education-container {
+  flex-direction: column;
+}
+.t-subtitle,
+.t-med-header,
+.t-small-header,
+.t-text {
+  margin: 5px;
+}
+.main-right {
+  width: 80%;
+  height: 100%;
+  padding-left: 20px;
+  border-left: 1px solid black;
+}
+.skills-2 {
+  margin-top: 100px;
+}
+.component-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.component-container button {
+  margin: 10px;
+  padding: 5px 15px;
+  color: white;
+  background-color: #333;
+}

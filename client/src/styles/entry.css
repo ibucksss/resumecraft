@@ -1,0 +1,90 @@
+.login,
+.register {
+  display: flex;
+  flex-direction: row;
+}
+.login-left {
+  background-image: url("../assets/loginbackground.svg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100vh;
+}
+.register-right {
+  background-image: url("../assets/registerbackground.svg");
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-form {
+  background-color: #fff;
+  padding: 150px 75px;
+  border-radius: 15px;
+}
+.register-form {
+  min-width: 90%;
+
+  padding: 100px 50px;
+  background-color: #fff;
+
+  border-radius: 15px;
+}
+.login-text {
+  margin-bottom: 50px;
+  color: #333;
+  border-bottom: 2px solid #4464ad;
+}
+.ant-form-item-required {
+  font-size: 1.3em !important;
+}
+
+.d-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.login-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.register-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.lottie {
+  height: 50em;
+  width: 50em;
+}
+.ant-spin {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+@media screen and (max-width: 1340px) {
+  .login-right {
+    display: none;
+  }
+  .login-left {
+    width: 100%;
+  }
+
+  .register-left {
+    display: none;
+  }
+  .register-right {
+    width: 100%;
+  }
+}

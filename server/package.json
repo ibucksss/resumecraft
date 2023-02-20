@@ -1,0 +1,26 @@
+{
+  "name": "ianresumebuilder",
+  "version": "1.0.0",
+  "homepage": "",
+  "main": "index.js",
+  "description": "ResumeCraft is an application I built in my free time to aid me in learning database skills using Node, Express and MongoDB. Included in the data base is user login info and info that will be used to populate created resume templates of varying styles. The focus of the app was not styling and a simple approch was taken in that respect.",
+  "engines": {
+    "node": "18.14.1",
+    "npm": "9.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20",
+    "pm2": "^5.2.2",
+    "react-scripts": "^5.0.1"
+  }
+}

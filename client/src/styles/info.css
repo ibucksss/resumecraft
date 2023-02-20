@@ -1,0 +1,15 @@
+.add-field {
+  margin: 10px;
+}
+.icon {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.update-info {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
